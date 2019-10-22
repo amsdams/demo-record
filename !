@@ -1,0 +1,4 @@
+curl https://api.audd.io/ \
+    -F file=@film.mp3 \
+    -F return='timecode,apple_music,deezer,spotify' \
+    -F api_token='03bf77677113287657848628835d1c33'
